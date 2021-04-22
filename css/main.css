@@ -1,0 +1,260 @@
+/*DEVELOPER: Sharon Cho, IS117-004, Spring 2021*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+    width: 100%;
+}
+
+
+/* Top Logo - share */
+.nav-logo {
+    text-align: center;
+    margin: 0.7em;
+}
+.nav-logo img {
+    margin-left: 0.7em;
+}
+.nav-logo h2 {
+    font-size: 0.9em;
+    font-weight: 550;
+    color: #383d41;
+    font-family: Arial ,serif;
+    padding-top: 0.3em;
+}
+
+
+/* NavBar - share */
+.navbar-nav.navbar-center {
+    margin: -0.5em auto;
+    left: 0;
+    right: 0;
+}
+
+nav ul li {
+    margin-right: 1.2em;
+    margin-left: 1.2em;
+}
+
+li a {
+    color: #383d41;
+    font-family: Arial ,serif;
+    padding-left: 0.4em;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+
+
+/* Backdrop - ONLY for index.html */
+.main-picture img {
+    margin-top: 1em;
+    margin-bottom: 4em;
+}
+.card {
+    margin: 3em 0.3em 2.5em 0.3em;
+    color: #383d41;
+    font-family: Arial ,serif;
+}
+
+
+
+/* Horizontal line and Text - NOT in index.html */
+hr {
+    margin-top: 0.3em;
+}
+
+.top p {
+    color: #383d41;
+    text-align: center;
+    font-family: Arial ,serif;
+    font-size: 1.094em;
+    margin-top: 1.8em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/* ul-li - ONLY for about.html */
+.container.section {
+    margin-bottom: 4em;
+}
+
+.description {
+    margin: 3em 1em 2.5em 1em;
+    color: #383d41;
+    font-family: Arial ,serif;
+    font-size: 1.1em;
+    font-style: italic;
+    text-align: center;
+}
+
+.unordered_list {
+    margin-left: -0.8em;
+}
+
+.paw {
+    list-style-image: url("../images/liststyleimage(paw).png");
+    font-size: 1.1em;
+}
+
+.paw li a {
+    color: #383d41;
+    font-family: Arial ,serif;
+    padding-left: 0.4em;
+    font-weight: bold;
+}
+dl {
+    color: #383d41;
+    font-family: Arial ,serif;
+    margin: 1em;
+}
+dl dt {
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    font-weight: normal;
+}
+
+
+/* Unordered List - ONLY for supplies.html */
+.unordered_list_supplies {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.unordered_list_supplies ul li {
+    display: inline;
+    margin: 3em;
+    color: #383d41;
+    font-family: Arial ,serif;
+}
+
+.text-center.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.text-center .img-fluid {
+    width: 100%;
+    margin-bottom: 2.8em;
+}
+
+/* ONLY for diary.html */
+.pic p {
+    color: #383d41;
+    font-family: Arial ,serif;
+    margin-top: 0.8em;
+    font-size: 1.2em;
+}
+
+/* ONLY for food.html */
+.container.this_is_main h4 {
+    margin-bottom: 0.8em;
+    color: #383d41;
+    font-family: Arial ,serif;
+}
+
+
+/* This_is_main - ONLY for supplies_second_tiers */
+.this_is_main {
+    margin-top: 3.5em;
+    margin-bottom: 4em;
+}
+.main-content {
+    display: inline-flex;
+    color: #23272b;
+}
+.container a {
+    font-family: Arial, serif;
+}
+.main-content h2 {
+    margin-top: 11.3em;
+    margin-left: 0.4em;
+    font-weight: 450;
+    font-size: 1.5em;
+}
+
+
+/* Training.html */
+.this_is_main h3 {
+    color: #23272b;
+    font-family: Arial, serif;
+    margin-bottom: 0.5em;
+}
+
+.videos a {
+    margin-left: 1em;
+    font-family: Arial, serif;
+    color: #23272b;
+    font-size: 1.3em;
+}
+
+.articles {
+    list-style-image: url("../images/liststyleimage(paw).png");
+    font-family: Arial, serif;
+    color: #23272b;
+    font-size: 1.3em;
+    display: table-cell;
+    margin-bottom: 2em;
+}
+.articles a {
+    font-weight: lighter;
+}
+
+
+
+
+/* Contact info - ONLY for contact.html */
+.contact_information {
+    margin-top: 3em;
+}
+
+.contact_information p {
+    margin-top: 2.5em;
+    color: #383d41;
+}
+
+.col-md-7 {
+    margin-top: 2em;
+}
+
+label {
+    margin-top: 1.7em;
+    color: #383d41;
+}
+
+.d-flex {
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+}
+
+/* hover */
+a:focus, a:hover {
+    font-style: italic;
+}
+
+/* Footer - share */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #383d41;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+
+
+
